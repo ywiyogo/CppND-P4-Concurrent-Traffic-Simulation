@@ -29,6 +29,8 @@ Throughout the Concurrency course, you have been developing a traffic simulation
 
 ## Project Tasks
 
+Task description in videos: https://youtu.be/ie1CM5ms2O8, https://youtu.be/XVQt4iKEQwo
+
 When the project is built initially, all traffic lights will be green. When you are finished with the project, your traffic simulation should run with red lights controlling traffic, just as in the .gif file above. See the classroom instruction and code comments for more details on each of these parts. 
 
 - **Task FP.1** : Define a class `TrafficLight` which is a child class of `TrafficObject`. The class shall have the public methods `void waitForGreen()` and `void simulate()` as well as `TrafficLightPhase getCurrentPhase()`, where `TrafficLightPhase` is an enum that can be either `red` or `green`. Also, add the private method `void cycleThroughPhases()`. Furthermore, there shall be the private member `_currentPhase` which can take `red` or `green` as its value.
